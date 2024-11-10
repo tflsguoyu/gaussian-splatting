@@ -134,7 +134,6 @@ def render_sets(dataset : ModelParams, iteration : int, pipeline : PipelineParam
         background = torch.tensor(bg_color, dtype=torch.float32, device="cuda")
 
         model_path = dataset.model_path
-        iteration = scene.loaded_iter
 
         with open(os.path.join(render_path, "cameras.json")) as json_file:
             contents = json.load(json_file)
