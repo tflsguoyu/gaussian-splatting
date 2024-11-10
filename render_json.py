@@ -8,7 +8,6 @@
 # #
 # # For inquiries contact  george.drettakis@inria.fr
 # #
-# python render_json.py -m ../3dgs_scenes/fish_real -s ../3dgs_scenes/fish_real/input --out ../3dgs_scenes/fish_real/output --white_background
 
 import os
 from os import makedirs
